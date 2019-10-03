@@ -1,0 +1,16 @@
+Package: sur.kmeans
+Title: Latent class inference with k-means and homogeneity testing implemented for a Seemingly Unrelated Regressions framework
+Version: 0.0.0.9000
+Authors@R: person("Fishy", "McFishperson", email = "allen.chen@noaa.com", role = c("aut", "cre"))
+Description: Uses Lin and Ng's (2012 Journal of Econometric Methods) k-means algorithm in conjunction with Pesaran and Yamagata's 
+	(2008 Journal of Econometrics) parameter homoegeneity test to uncover latent classes, implemented here for a 
+	Seemingly Unrelated Regressions framework.
+Depends: R (>= 3.5.1)
+License: Do not distribute
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
